@@ -19,6 +19,8 @@ function book (title, author, pageCount, set, genre, yearofPublication,publisher
 }
 
 var book1 = new book("All your Perfects","Susan Vaughn","356","America", "Romance", "2015","Penguin Books");
+book1.emotions();
+console.log(book1);
 var book2 = new book("Emotional Intelligence", "Dan Coleman", "450", "Modern Era", "Psychology", "2009","Harper Collins");
 
 //Object 2: NewsNetworks
